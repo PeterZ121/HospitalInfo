@@ -6,7 +6,7 @@ package test;
  * 功能：实例化登陆界面，实例化患者列表
  */
 public class Regulation {
-    public static CustomerList cl = new CustomerList(1000);
+    public static CustomerList cl = new CustomerList(1);
     public static void main(String[] args){
         Windows login=new Windows();
     }
